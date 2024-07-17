@@ -74,4 +74,9 @@ public class SeleniumTest {
         extent.flush();
     }
 
+    @AfterSuite
+    void closeWindow(){
+        driver.quit();
+    }
+
 }
