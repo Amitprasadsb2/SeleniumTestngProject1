@@ -18,7 +18,7 @@ public class Dashboard {
 
         Thread.sleep(5000);
 
-        String ExpectedactionTab = "My Actions";
+        String ExpectedactionTab = "My Actions22";
         String ActualactionTab = driver.findElement(By.xpath(myactiontab)).getText();
 
         Assert.assertEquals(ExpectedactionTab, ActualactionTab);
